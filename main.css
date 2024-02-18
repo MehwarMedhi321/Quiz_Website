@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Charm:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=Dosis:wght@200..800&family=Homemade+Apple&family=Italianno&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Merienda:wght@300..900&family=Oranienbaum&family=Rubik+Doodle+Shadow&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Dosis", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e4e9f7;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+}
+.container h1{
+ margin: 10px;
+ /* text-align: center; */
+ font-size: 2rem;
+ font-weight: 800;
+ margin-bottom: 6%;
+ border-bottom: 1px solid #e6e6e6;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.box{
+    background: #fdfdfd;
+    display: flex;
+    padding: 26px;
+    flex-direction: column;
+    box-shadow:  0 0 128px rgb(0,0,0,0.1),
+              0 32px 64px  -48px rgba(0,0,0,0.5);
+     border-radius: 10px;
+}
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.logo a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.form-box form .filed{
+    display: flex;
+    margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.form-box form .filed label{
+ font-weight: 600;
+ padding-left: 2.5%;
+
+}
+
+
+input{
+    border: none;
+    background-color: #f0eded;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    margin: 8px;
+    font-weight: bold;
+}
+.btn{
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 9px;
+}
+.link{
+    text-align: center;
+    font-weight: bold;
+    margin: 8px;
+    
+}
+
+
+.cont{
+ margin-left: 25%;
+    
+}

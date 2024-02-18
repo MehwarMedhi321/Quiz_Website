@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Charm:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=Dosis:wght@200..800&family=Homemade+Apple&family=Italianno&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Merienda:wght@300..900&family=Oranienbaum&family=Rubik+Doodle+Shadow&family=Satisfy&family=Tangerine:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Dosis", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e4e9f7;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+}
+.container h1{
+ margin: 10px;
+ /* text-align: center; */
+ font-size: 2rem;
+ font-weight: 800;
+ margin-bottom: 6%;
+ border-bottom: 1px solid #e6e6e6;
+
+}
+
+
+.btn{
+    /* margin-top: 7%; */
+    /* background-color: rgba(61, 238, 117, 0.888); */
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 9px;
+}
+
+
+.cont{
+ margin-left: 25%;
+    
+}
+
+.icons{
+  letter-spacing: 5px;
+  cursor: pointer;
+}
